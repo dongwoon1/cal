@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+h1{
+	padding: 25px 30px 16px;
+	text-align: center;
+}
+
+.cart-list{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;	
+}
+
+.cart-container{
+	width:33%;
+	padding: 20px 10px;
+	box-sizing: border-box;
+}
+
+img{
+	width: 100%;
+}

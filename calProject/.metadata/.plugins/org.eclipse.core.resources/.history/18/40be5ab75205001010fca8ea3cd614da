@@ -1,0 +1,38 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>バイバイハンバイ</title>
+		<link href="css/main.css" rel="stylesheet">
+		<link href="css/login.css" rel="stylesheet">
+	</head>
+	
+	<body>
+	<main>
+	 
+		<%@include file = "header.jsp" %>
+	  
+		<section>
+			<div class="login-box">
+			
+				<div>
+					<input type="text" name="" value="">
+					<input type="password" name="" value="">
+				</div>
+				
+				<div>
+					<button name="" onclick="alert('hello')">button</button>
+				</div>
+				
+			</div>
+	  	</section>
+	  
+		<%@include file="footer.jsp" %>
+				
+	</main>
+	</body>
+
+</html>

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+h1{
+	text-align: center;
+	padding: 75px 0 25px;
+	letter-spacing: 1px;
+}
+
+.login-box{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 40px;
+}
+
+#input-box{
+	width: 267px;
+	
+}
+
+#input-box input{
+	width: 100%;
+    height: 23px;
+    margin: 5px 0;
+
+	
+}
+
+#btn-box{
+	width: 122px;
+    height: 72px;
+}
+
+#btn-box button{
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	border: 1px solid;
+}

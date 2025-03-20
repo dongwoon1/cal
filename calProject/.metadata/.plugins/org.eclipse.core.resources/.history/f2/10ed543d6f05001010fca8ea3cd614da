@@ -1,0 +1,73 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>バイバイハンバイ</title>
+		<link href="css/main.css" rel="stylesheet">
+		<link href="css/mypage.css" rel="stylesheet">
+	</head>
+	
+	<body>
+	<main>
+	 
+		<%@include file = "header.jsp" %>
+	  
+		<section>
+			<div class="left-box">
+				<table border="0">
+					<caption>cdcd1230</caption>
+					<colgroup>
+						<col width="30%">
+						<col width="70%">
+					</colgroup>
+					<tr>
+						<td>name</td>
+						<td>dongwoon</td>
+					</tr>
+					<tr>
+						<td>tel</td>
+						<td>070 - 9005 - 5683</td>
+					</tr>
+					<tr>
+						<td>address</td>
+						<td>〒210-0024
+						神奈川県川崎市川崎区日新町9－1
+						川崎センチュリープラザ1201</td>
+					</tr>
+				</table>
+			</div>
+			
+			<hr>
+			
+			<div class="right-box">
+				<div>
+					<h4>カート</h4>
+					<div id="cart-list">
+						<div id="products">
+							<img src="img/167fb927c0a7f1451fbfbc6f7d143d9d51931a23.jpg" alt="">
+						</div>
+					</div>
+				</div>
+				
+				<hr>
+				
+				<div>
+					<h4>オーダー</h4>
+					<div id="order-list">
+						<div id="-products">
+							<img src="" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+	  	</section>
+	  
+		<%@include file="footer.jsp" %>
+				
+	</main>
+	</body>
+
+</html>

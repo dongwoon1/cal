@@ -1,0 +1,133 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>バイバイハンバイ</title>
+		<link href="css/main.css" rel="stylesheet">
+	</head>
+	
+	<body>
+	<main>
+	 
+		<header>
+		   	<span>menu</span>
+		   	<span>account</span>
+			<!-- 
+			 <na>
+				<li>outer</li>
+				<li>shirts</li>
+				<li>pants</li>
+				<li>shoes</li>
+				<li>accessories</li>
+				<li>account</li>
+			 </ul>
+		    -->
+	  	</header>
+	  
+		<section>
+			<div class="pro">
+			 
+				<div class="product">
+				
+					<div>
+					 	<img src="${pageContext.request.contextPath}/img/wonyoung_main.jpg" alt="">
+					</div>
+					<div>
+					 	<h5>name</h5>
+					</div>
+					<div>
+					 	<span>price</span>
+					</div>
+				 
+				</div>
+	    
+	    		<div class="product">
+				
+					<div>
+					 	<img src="img/wonyoung_main.jpg" alt="">
+					</div>
+					<div>
+					 	<h5>name</h5>
+					</div>
+					<div>
+					 	<span>price</span>
+					</div>
+				 
+				</div>
+	    
+				<div class="product">
+				
+					<div>
+					 	img
+					</div>
+					<div>
+					 	<h5>name</h5>
+					</div>
+					<div>
+					 	<span>price</span>
+					</div>
+				 
+				</div>
+	    
+			</div>
+	   
+	   
+	   		<div class="pro">
+			 
+				<div class="product">
+				
+					<div>
+					 	img
+					</div>
+					<div>
+					 	<h5>name</h5>
+					</div>
+					<div>
+					 	<span>price</span>
+					</div>
+				 
+				</div>
+	    
+	    		<div class="product">
+				
+					<div>
+					 	img
+					</div>
+					<div>
+					 	<h5>name</h5>
+					</div>
+					<div>
+					 	<span>price</span>
+					</div>
+				 
+				</div>
+	    
+				<div class="product">
+				
+					<div>
+					 	img
+					</div>
+					<div>
+					 	<h5>name</h5>
+					</div>
+					<div>
+					 	<span>price</span>
+					</div>
+				 
+				</div>
+	    
+			</div>
+	   
+	  	</section>
+	  
+		<footer>
+		 	<div>footer</div>
+		</footer>
+	  
+	</main>
+	</body>
+
+</html>

@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.login-box{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#input-box input{
+	width: 200px;
+}

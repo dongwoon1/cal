@@ -1,0 +1,55 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>バイバイハンバイ</title>
+		<link href="css/main.css" rel="stylesheet">
+		<link href="css/view.css" rel="stylesheet">
+	</head>
+	
+	<body>
+	<main>
+	 
+		<header>
+		   	<span>menu</span>
+		   	<span>account</span>
+			<!-- 
+			 <na>
+				<li>outer</li>
+				<li>shirts</li>
+				<li>pants</li>
+				<li>shoes</li>
+				<li>accessories</li>
+				<li>account</li>
+			 </ul>
+		    -->
+	  	</header>
+	  
+		<section>
+			<div class="view-container">
+				<div class="img-box">
+					<img src="img/wonyoung_main.jpg" alt="">
+				</div>
+				<div class="content-box">
+					<div><h2>name</h2></div>
+					<div>
+						<p>explain<p>
+					</div>
+					<div>
+						<p>price</p>
+					</div>
+				</div>
+			</div>
+	  	</section>
+	  
+		<footer>
+		 	<div>footer</div>
+		</footer>
+	  
+	</main>
+	</body>
+
+</html>

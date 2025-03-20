@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.cart-list{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;	
+}
+
+.cart-container{
+	padding:10px;
+}
+
+img{
+	width: 100%;
+}

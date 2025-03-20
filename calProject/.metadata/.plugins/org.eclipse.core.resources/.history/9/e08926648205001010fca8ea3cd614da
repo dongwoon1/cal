@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.cart-list{
+	width: 100%;
+	display: flex;
+}
+
+img{
+	width: 100%;
+}

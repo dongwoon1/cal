@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+*{
+	  padding: 0; margin: 0;
+}
+
+main{
+    margin: 30px auto;
+    padding: 20px;
+    width: 700px;
+     	border: 1px solid black;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	 	border: 1px solid red;
+}
+
+header span{
+ 	padding: 5px 10px;
+}
+
+footer{
+ 	padding: 13px;
+  		border: 1px solid blue;
+}
+
+footer div{
+ 	background: gray;
+    padding: 15px;
+}
